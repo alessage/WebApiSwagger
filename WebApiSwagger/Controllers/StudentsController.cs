@@ -40,7 +40,7 @@ namespace WebApiSwagger.Controllers
         /// Get student
         /// </summary>
         /// <param name="userName">Unique username</param>
-        /// <remarks>Get signle student by providing username</remarks>
+        /// <remarks>Get single student by providing username</remarks>
         /// <response code="404">Not found</response>
         /// <response code="500">Internal Server Error</response>
         [Route("{userName:alpha}", Name = "GetStudentByUserName")]
